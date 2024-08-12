@@ -8,7 +8,7 @@ import{StartComponent } from './start/start.component'
 import {PortofiloComponent} from './portofilo/portofilo.component'
 
 export const routes: Routes = [
-    { path: '', component: StartComponent , title: 'start' },
+    { path: '', component: StartComponent },
     { path: 'about', component: AboutComponent, title: 'about' },
     { path: 'contact', component: ContactComponent, title: 'contact' },
     { path: 'footer', component: FooterComponent, title: 'end' },
